@@ -1,0 +1,85 @@
+.tab:hover {
+    background-color: #816597;
+}
+
+.navtext:hover {
+    color: #fff;
+}
+
+/* Header.css or a new CSS file */
+
+.custom-dropdown {
+    position: relative; /* Essential for positioning the dropdown menu */
+}
+
+.custom-dropdown-menu {
+    position: absolute;
+    top: 100%; /* Position directly below the parent link */
+    left: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+    display: block; /* Always visible when rendered by React */
+    min-width: 10rem; /* Adjust as needed */
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175); /* Optional: add a subtle shadow */
+}
+
+.custom-dropdown-menu .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.custom-dropdown-menu .dropdown-item:hover,
+.custom-dropdown-menu .dropdown-item:focus {
+    color: #1e2125;
+    background-color: #e9ecef;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.btn-roxo {
+  background-color: #4f1479;
+  color: #ffffff;
+  border-color: #4f1479;
+}
+
+.btn-roxo:hover {
+  background-color: #7d42a8; /* roxo mais claro */
+  border-color: #7d42a8;
+  color: #ffffff;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.info {
+    font-family: system-ui;
+    font-weight: bold;
+    color: #4f1479;
+}
