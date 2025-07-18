@@ -10,13 +10,14 @@ const Footer = () => {
     background: "#f8f9fa",
     textAlign: "center",
     zIndex: 1000,
-    backgroundColor: "#4f1479"
+    backgroundColor: "#4f1479",
+    position: "sticky"
   }}>
       <p className='mb-0'>
-        &copy; {new Date().getFullYear()} Semana Acadêmica de Biotecnologia da UFPel. Todos os direitos reservados.
+        {new Date().getFullYear()} I Semana Acadêmica de Biotecnologia da UFPel.
       </p>
       <p className='mb-0'>
-        <a href="" target="_blank" rel="noopener noreferrer" className='text-white'>Política de Privacidade</a> | <a href="" target="_blank" rel="noopener noreferrer" className='text-white'>Termos de Uso</a>
+       <a href="" target="_blank" rel="noopener noreferrer" className='text-white'>Regimento geral</a> | <a href="https://www.instagram.com/dabiotecufpel/" target="_blank" rel="noopener noreferrer" className='text-white'>Instagram oficial</a>
       </p>
     </div>
   )

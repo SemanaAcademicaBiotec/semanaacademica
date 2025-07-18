@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'; // Assuming Header.css contains your existing styles
 import header from '../media/Header.jpg'
 
 const Navbar = () => {
-    const navigate = useNavigate();
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     return (
@@ -19,57 +18,59 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="tab nav-item p-2">
-                                <a className="navtext nav-link" href="#" onClick={() => navigate("/")}>Início</a>
+                                <Link className="navtext nav-link" to="/">Início</Link>
                             </li>
                             <li className="tab nav-item p-2">
-                                <a className="navtext nav-link" href="#" onClick={() => navigate("/inscrições")}>Inscreva-se</a>
+                                <Link className="navtext nav-link" to="/inscrições">Inscreva-se</Link>
                             </li>
                             <li
                                 className="tab nav-item p-2 custom-dropdown" // Add a custom class for styling
                                 onMouseEnter={() => setDropdownOpen(true)}
                                 onMouseLeave={() => setDropdownOpen(false)}
                             >
-                                <a
+                                <Link
                                     className="navtext nav-link" // Removed dropdown-toggle
-                                    href="#"
+                                    to="/submeta"
                                     id="submetaDropdown"
                                     role="button"
                                     aria-expanded={dropdownOpen ? "true" : "false"}
-                                    onClick={() => navigate("/submeta")} // Prevent default navigation
                                 >
                                     Submeta seu trabalho
-                                </a>
+                                </Link>
                                 {dropdownOpen && ( // Conditionally render the dropdown menu
                                     <ul
                                         className="custom-dropdown-menu" // Custom class for the dropdown menu
                                         aria-labelledby="submetaDropdown"
                                     >
                                         <li>
-                                            <a className="dropdown-item" href="#" onClick={() => navigate("/pesquisa-graduacao")}>
+                                            <Link className="dropdown-item" to="/pesquisa-graduacao">
                                                 Pesquisa - Graduação
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#" onClick={() => navigate("/pesquisa-pos-graduacao")}>
+                                            <Link className="dropdown-item" to="/pesquisa-pos-graduacao">
                                                 Pesquisa - Pós-graduação
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="#" onClick={() => navigate("/ensino-extensao")}>
+                                            <Link className="dropdown-item" to="/ensino-extensao">
                                                 Ensino/Extensão - Geral
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 )}
                             </li>
                             <li className="tab p-2 nav-item">
-                                <a className="navtext nav-link" href="#" onClick={() => navigate("/anais")}>Anais</a>
+                                <Link className="navtext nav-link" to="/modelo">Modelos de resumos</Link>
                             </li>
                             <li className="tab p-2 nav-item">
-                                <a className="navtext nav-link" href="#" onClick={() => navigate("/certificados")}>Certificados</a>
+                                <Link className="navtext nav-link" to="/anais">Anais</Link>
                             </li>
                             <li className="tab p-2 nav-item">
-                                <a className="navtext nav-link" href="#" onClick={() => navigate("/faq")}>Perguntas Frequentes</a>
+                                <Link className="navtext nav-link" to="/certificados">Certificados</Link>
+                            </li>
+                            <li className="tab p-2 nav-item">
+                                <Link className="navtext nav-link" to="/faq">Perguntas Frequentes</Link>
                             </li>
                         </ul>
                     </div>
