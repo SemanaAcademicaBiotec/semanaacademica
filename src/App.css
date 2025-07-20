@@ -1,0 +1,25 @@
+html, body, #root, .App {
+  height: 100%; /* Garante que a raiz do app ocupe a altura total da viewport */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex; /* Transforma o .App em um contêiner flex */
+  flex-direction: column; /* Organiza os itens (Navbar, main-content, Footer) em coluna */
+  min-height: 100vh; /* Garante que o .App tenha pelo menos a altura da viewport */
+}
+
+.main-content {
+  flex-grow: 1; /* Faz com que o conteúdo principal ocupe todo o espaço disponível, empurrando o Footer */
+  /* Você pode querer adicionar um padding-bottom para que o conteúdo não fique colado no footer */
+  padding-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.footer-component { /* Se você adicionar uma classe ao seu div do Footer */
+  /* Remove o estilo 'left', 'bottom', 'width', 'z-index' se você estiver usando o flexbox */
+  /* Estes estilos são para rodapés com position: fixed ou absolute, não para flexbox */
+  /* background: "#f8f9fa"; // Remova este ou altere para a cor correta */
+  /* text-align: "center"; // Este já está na classe text-center */
+  /* background-color: "#4f1479"; // Este também */
+}

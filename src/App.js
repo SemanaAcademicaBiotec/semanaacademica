@@ -1,7 +1,9 @@
+import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Renomeei BrowserRouter para Router aqui
+
+// Importe seus componentes
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import React from "react";
 import Inscrever from "./components/Inscrever";
 import Submeta from "./components/Submeta";
 import Ensino from "./components/Papers/Ensino";
@@ -12,12 +14,16 @@ import Footer from "./components/Footer";
 import Certificados from "./components/Certificados";
 import FAQ from "./components/FAQ";
 import Modelo from "./components/Modelo";
+import "./App.css";
+import Apresentacao from "./components/Apresentacao";
+import Cronograma from "./components/Cronograma";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
+        <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/inscrições" element={<Inscrever />} />
@@ -29,8 +35,11 @@ function App() {
             <Route path="/certificados" element={<Certificados />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/modelo" element={<Modelo />} />
+            <Route path="/apresentacao" element={<Apresentacao />} />
+            <Route path="/cronograma" element={<Cronograma />} />
           </Routes>
-          <Footer />
+        </main>
+        <Footer />
       </Router>
     </div>
   );

@@ -9,7 +9,9 @@ const Navbar = () => {
 
     return (
         <div className='header-text'>
-            <img src={header} alt="Semana Acadêmica" style={{ width: '100%', height: 'auto' }} />
+            <Link to="/">
+                <img src={header} alt="Semana Acadêmica" style={{ width: '100%', height: 'auto', cursor: 'pointer' }} />
+            </Link>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid d-flex flex-column align-items-center">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +25,19 @@ const Navbar = () => {
                             <li className="tab nav-item p-2">
                                 <Link className="navtext nav-link" to="/inscrições">Inscreva-se</Link>
                             </li>
+                            <li className="tab nav-item p-2">
+                                <Link className="navtext nav-link" to="/apresentacao">Apresentação</Link>
+                            </li>
+                            <li className="tab nav-item p-2">
+                                <Link className="navtext nav-link" to="/cronograma">Cronograma</Link>
+                            </li>
                             <li
-                                className="tab nav-item p-2 custom-dropdown" // Add a custom class for styling
+                                className="tab nav-item p-2 custom-dropdown"
                                 onMouseEnter={() => setDropdownOpen(true)}
                                 onMouseLeave={() => setDropdownOpen(false)}
                             >
                                 <Link
-                                    className="navtext nav-link" // Removed dropdown-toggle
+                                    className="navtext nav-link"
                                     to="/submeta"
                                     id="submetaDropdown"
                                     role="button"
@@ -37,9 +45,9 @@ const Navbar = () => {
                                 >
                                     Submeta seu trabalho
                                 </Link>
-                                {dropdownOpen && ( // Conditionally render the dropdown menu
+                                {dropdownOpen && (
                                     <ul
-                                        className="custom-dropdown-menu" // Custom class for the dropdown menu
+                                        className="custom-dropdown-menu"
                                         aria-labelledby="submetaDropdown"
                                     >
                                         <li>
