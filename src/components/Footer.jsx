@@ -12,7 +12,7 @@ const Footer = () => {
         {new Date().getFullYear()} I Semana Acadêmica de Biotecnologia da UFPel.
       </p>
       <p className='mb-0'>
-       <a href="" target="_blank" rel="noopener noreferrer" className='text-white'>Regimento geral</a> | <a href="https://www.instagram.com/dabiotecufpel/" target="_blank" rel="noopener noreferrer" className='text-white'>Instagram oficial</a>
+       <a href="https://docs.google.com/document/d/1s6_I1H-8u-8vHtMBOqXiQSK4Nn4Lt1Zr-IvC5vIReCQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className='text-white'>Regimento geral</a> | <a href="https://www.instagram.com/dabiotecufpel/" target="_blank" rel="noopener noreferrer" className='text-white'>Instagram oficial</a>
       </p>
     </div>
   )

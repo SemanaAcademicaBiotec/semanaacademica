@@ -13,11 +13,11 @@ const Cronograma = () => {
         </thead>
         <tbody>
           <tr>
-            <td>21 de julho a 15 de agosto de 2025</td>
+            <td>22 de julho a 15 de agosto de 2025</td>
             <td>Período para submissão de trabalhos.</td>
           </tr>
           <tr>
-            <td>21 de julho a 19 de setembro de 2025</td>
+            <td>22 de julho a 19 de setembro de 2025</td>
             <td>Período para inscrições como ouvinte.</td>
           </tr>
           <tr>

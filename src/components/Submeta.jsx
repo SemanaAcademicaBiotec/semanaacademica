@@ -12,7 +12,7 @@ return (
       src={Mostra}
       alt="Mostra de Trabalhos"
       className='img-fluid mb-4'
-      style={{width: '11%', objectFit: 'cover', position: 'absolute', right: '20%', top: '15px'}}
+      style={{width: '11%', objectFit: 'cover', position: 'absolute', right: '15%', top: '15px'}}
     />
     <div className='container'>
       <p className='fs-1 pt-5'><strong>I MOSTRA ACADÊMICA 5' &#8594; 3' </strong></p>
