@@ -16,7 +16,7 @@ const Home = () => {
       <p><strong>Data</strong> <br />22 de setembro até 26 de setembro</p>
       <p className='mb-4'><strong>Local</strong> <br />Auditório Eliseu Maciel, Faculdade de Agronomia, UFPel</p>
     </div>
-    <p className='mb-5 text-center mt-4'> Para mais informações, acompanhe no instragam <a href="https://www.instagram.com/dabiotecufpel/" target="_blank" rel="noopener noreferrer">@dabiotecufpel </a> <br /> ou entre em contato através do nosso email mostraacademicabiotec@gmail.com.</p>
+    <p className='mb-5 text-center mt-4'> Para mais informações, acompanhe no instragam <a href="https://www.instagram.com/dabiotecufpel/" target="_blank" rel="noopener noreferrer">@dabiotecufpel </a> <br /> ou entre em contato através do nosso email mostracincolinhatreslinha@gmail.com.</p>
     </div>
   )
 }
