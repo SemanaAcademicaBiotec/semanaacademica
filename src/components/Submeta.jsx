@@ -11,9 +11,17 @@ return (
     <img
       src={Mostra}
       alt="Mostra de Trabalhos"
-      className='img-fluid mb-4'
-      style={{width: '11%', objectFit: 'cover', position: 'absolute', right: '15%', top: '15px'}}
+      className='img-fluid mb-4 mostra-desktop'
     />
+    {/* Imagem para mobile e tablets */}
+    <div className='mostra-mobile w-100 text-center mb-3 mt-5' style={{display: 'flex', justifyContent: 'center'}}>
+      <img
+        src={Mostra}
+        alt="Mostra de Trabalhos"
+        className='img-fluid mx-auto'
+        style={{width: '150px', maxWidth: '40%', objectFit: 'cover'}}
+      />
+    </div>
     <div className='container'>
       <p className='fs-1 pt-5'><strong>I MOSTRA ACADÊMICA 5' &#8594; 3' </strong></p>
       <p className='fs-5'>A primeira <strong>Mostra Acadêmica 5' → 3'</strong> busca incentivar a divulgação de trabalhos acadêmicos e científicos, <br />promovendo apresentações concisas e impactantes, com duração de 5 minutos e 30 segundos por projeto.</p>

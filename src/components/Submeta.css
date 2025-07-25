@@ -6,3 +6,39 @@
 .btn-submeta {
   background-color: #eeedee;
 }
+
+/* Responsividade para a imagem da mostra */
+.mostra-desktop {
+  width: 11%;
+  object-fit: cover;
+  position: absolute;
+  right: 15%;
+  top: 15px;
+}
+
+/* Media queries para melhor controle responsivo */
+@media (max-width: 1199.98px) {
+  .mostra-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mostra-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .mostra-desktop {
+    width: 13%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 1299.98px) {
+  .mostra-desktop {
+    width: 15%;
+    right: 8%;
+  }
+}

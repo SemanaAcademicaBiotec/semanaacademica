@@ -4,11 +4,15 @@ const Home = () => {
   return (
     <div className='container'>
         <div className=''>
+          <div className='shadow rounded-5 p-4 mt-5 mx-auto' style={{maxWidth: "80%"}}>
+            <p className='fs-2 recuo text-center'><strong>Biotecnologia em diálogo com a comunidade científica:</strong></p>
+            <p className='fs-4 recuo text-center'>Descubra como a <strong>sua</strong> ciência transforma o mundo.</p>
+          </div>          
            <p className='fs-4 mt-5 recuo'>
-                Convidamos estudantes de <strong>graduação</strong> e <strong>pós-graduação</strong> de toda a Universidade Federal de Pelotas para participar da <br /><strong>1° Semana Acadêmica</strong>, que será realizada no auditório Eliseu Maciel da Faculdade de Agronomia, no campus Capão do Leão da UFPel. 
+                Convidamos estudantes de <strong>graduação</strong> e <strong>pós-graduação</strong> de toda a Universidade Federal de Pelotas e outras instituições de ensino para participar da <strong>1° Semana Acadêmica</strong>, que será realizada no auditório Eliseu Maciel da Faculdade de Agronomia, no campus Capão do Leão da UFPel. 
                 <br /><br />O evento, com duração de uma semana, tem por intuito possibilitar aos participantes: 
             </p> 
-            <p className='fs-4 ms-4'>- Assistir palestras; <br /> - Participar de minicursos; <br /> - Realizar apresentação oral ou de pôster; <br /> - Interagir com empresas, divulgadores científicos e pesquisadores da UFPel e de outras instituições do Brasil; <br /> - E muito mais!</p>
+            <p className='fs-4 ms-4'>- Assistir palestras de grandes nomes da comunidade científica; <br /> - Participar de minicursos; <br /> - Realizar apresentações de revisões, estudos e atividades de ensino/extensão em formato oral/pôster; <br /> - Interagir com empresas, divulgadores científicos e pesquisadores da UFPel e de outras instituições do Brasil; <br /> - E muito mais!</p>
             <p className='fs-4'>Desta forma, um dos objetivos deste evento é <strong>promover a interação da comunidade acadêmica</strong> e impulsionar diferentes áreas de conhecimento acerca da Biotecnologia.</p>
         </div>
     <div className='border rounded-5 mt-5 fs-5 text-center mx-auto shadow' style={{width: "70%"}}>
