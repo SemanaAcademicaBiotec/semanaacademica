@@ -17,7 +17,7 @@ const Home = () => {
         </div>
     <div className='border rounded-5 mt-5 fs-5 text-center mx-auto shadow' style={{width: "70%"}}>
       <h3 className='mt-4 fs-1 text-center mb-4 info'>INFORMAÇÕES</h3>
-      <p><strong>Data</strong> <br />22 de setembro até 26 de setembro</p>
+      <p><strong>Data</strong> <br />24 de novembro até 28 de novembro</p>
       <p className='mb-4'><strong>Local</strong> <br />Auditório Eliseu Maciel, Faculdade de Agronomia, UFPel</p>
     </div>
     <p className='mb-5 text-center mt-4'> Para mais informações, acompanhe no instragam <a href="https://www.instagram.com/dabiotecufpel/" target="_blank" rel="noopener noreferrer">@dabiotecufpel </a> <br /> ou entre em contato através do nosso email mostracincolinhatreslinha@gmail.com.</p>

@@ -25,8 +25,8 @@ const Ensino = () => {
     </button>
     <hr style={{width: '40%'}} className='mx-auto'/>
     <div className='fs-6'>
-      <p><strong>Prazo de submissão</strong> <br /> 22/07/2025 às 00:00 até 15/08/2025 às 23:59</p>
-      <p><strong>Resultado dos Resumos Aprovados</strong> <br /> 30/08/2025 até 05/09/2025</p>
+      <p><strong>Prazo de submissão</strong> <br /> 22/07/2025 às 00:00 até 30/09/2025 às 23:59</p>
+      <p><strong>Resultado dos Resumos Aprovados</strong> <br /> --/--/2025 até --/--/2025</p>
     </div>
    </div>
    <br />
