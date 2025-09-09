@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/semanaacademica/static/css/main.5630b371.css",
-    "main.js": "/semanaacademica/static/js/main.b285908d.js",
+    "main.js": "/semanaacademica/static/js/main.5d6bc61e.js",
     "static/media/Mostra.jpg": "/semanaacademica/static/media/Mostra.64faa0d1ab9a00cd7b6d.jpg",
     "static/media/Header.jpg": "/semanaacademica/static/media/Header.685be1827387adea13cc.jpg",
     "index.html": "/semanaacademica/index.html",
     "main.5630b371.css.map": "/semanaacademica/static/css/main.5630b371.css.map",
-    "main.b285908d.js.map": "/semanaacademica/static/js/main.b285908d.js.map"
+    "main.5d6bc61e.js.map": "/semanaacademica/static/js/main.5d6bc61e.js.map"
   },
   "entrypoints": [
     "static/css/main.5630b371.css",
-    "static/js/main.b285908d.js"
+    "static/js/main.5d6bc61e.js"
   ]
 }
