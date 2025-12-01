@@ -17,7 +17,7 @@ const Inscrever = () => {
         </a>
       </p><br /><br />
       <p className='fs-5'>
-        Para se inscrever, preencha o formulário disponível clicando no botão acima. Inscrições abertas do dia <strong>22 de julho</strong> até <strong>20 de setembro</strong>.
+        Para se inscrever, preencha o formulário disponível clicando no botão acima. Inscrições abertas do dia <strong>22 de julho</strong> até <strong>21 de novembro</strong>.
       </p>
      
     </div>

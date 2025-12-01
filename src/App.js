@@ -17,6 +17,7 @@ import Modelo from "./components/Modelo";
 import "./App.css";
 import Apresentacao from "./components/Apresentacao";
 import Cronograma from "./components/Cronograma";
+import Minicursos from "./components/Minicursos";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/modelo" element={<Modelo />} />
             <Route path="/apresentacao" element={<Apresentacao />} />
             <Route path="/cronograma" element={<Cronograma />} />
+            <Route path="/minicursos" element={<Minicursos />} />
           </Routes>
         </main>
         <Footer />
